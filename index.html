@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <!-- nav -->
+    <div class="navbar">
+        <h1 class="title">Weather Dashboard</h1>
+    </div>
+    <!-- aside search -->
+    <div class="container search">
+        <h2 class="header">Search for a City:</h2>
+        <input id="searchbar" type="text" class="search-bar" value="wenatchee">
+        <button id="searchbtn" class="btn search-btn">Search</button>
+    
+        <div id="recents" class="container recents">
+            <!-- local storage will populate here -->    
+        </div>
+    </div>
+    <!-- city weather -->
+    <div class="forecast container">
+        <div class="container city">
+            <h2 id="city" class="header">City Placeholder</h2>
+            <p id="temp">Temperature:</p>
+            <p id="wind" >Wind:</p>
+            <p id="humidity">Humidity:</p>
+            <p id="uv">UV Index:</p>
+        </div>
+        <!-- 5-day forecast -->
+        <div class="container five-day">
+            <h3 class="title">5-Day Forecast:</h3>
+            <div id="fCards"></div>
+        <!-- forecast will populate here -->
+        </div>
+    </div>
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="Assets/js/script.js"></script>
+</body>
+</html>

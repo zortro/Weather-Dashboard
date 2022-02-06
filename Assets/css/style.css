@@ -1,0 +1,124 @@
+/* globals */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    color: rgb(202, 202, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgb(20, 20, 20);
+    height: 50px;
+    text-align: center;
+}
+/* all containers */
+.container {
+    background-color: rgb(32, 32, 32);
+    border: 2px solid transparent;
+}
+
+/* search container */
+.search {
+    padding: 10px;
+    margin-right: 75vw;
+}
+
+.search-bar {
+    border: transparent;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 100%;
+}
+
+.search-btn {
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(123, 123, 255);
+}
+
+.recents {
+    margin-top: 10px;
+    padding: 10px;
+    height: 664px;
+}
+
+.search-btn:hover {
+    background-color: rgb(153, 153, 255);
+}
+
+.city-btn {
+    border: transparent;
+    border-radius: 5px;
+}
+
+.city-btn:hover {
+    background-color: white;
+}
+
+/* searched city result */
+.forecast {
+    padding: 10px;
+    margin-left: 25vw;
+    margin-top: -851px;
+}
+
+.city {
+    border: transparent;
+    border-radius: 5px;
+    height: 35vh;
+    padding: 10px;
+    background-color: rgb(202, 202, 202);
+    color: black
+}
+
+/* five day forecast */
+.five-day {
+    height: 45vh;
+    margin-top: 14px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.card {
+    padding: 10px;
+    border: transparent;
+    border-radius: 5px; 
+    background-color: rgb(202, 202, 202);
+    width: 10%;
+    height: 50%;
+    color: black;
+}
+
+.card:hover {
+    padding: 20px;
+    margin: -10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#fCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hide {
+    display: none;
+}
