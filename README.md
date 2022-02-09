@@ -2,8 +2,7 @@
 <a name="title"></a>
 # Weather Dashboard
 
-<!-- project shields -->
-![badge](https://img.shields.io/badge/license--brightgreen)<br />
+![img](./Assets/img/ex.png)
 
 <!-- toc -->
 <a name="table-of-contents"></a>
@@ -48,17 +47,7 @@ To test Weather Dashboard follow the [installation](#getting-started) directions
 <a name="Contributing"></a>
 ## Contributing
 
-undefined
-
-script should autogenerate this text depending on user choice
-
-<!-- License -->
-<a name="License"></a>
-![badge](https://img.shields.io/badge/license--brightgreen)<br />
-## License
-
-
-
+If you wish to contribute to Weather Dashboard, you can do so by sending any requests or errors to the issues tab, or you can email me.
 <!-- Contact Me -->
 <a name="contact-me"></a>
 ## Contact Me
